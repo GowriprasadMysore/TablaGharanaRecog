@@ -1,5 +1,4 @@
 # TablaGharanaRecog
-Code repository for Tabla Gharana Recognition using CNN-LSTM networks
-
+Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGSOF TABLA SOLO PERFORMANCES"
 
 1. Data Preparation 
