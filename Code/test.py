@@ -40,7 +40,7 @@ def find_accuracy(loader,model,criterion):
    batch_data=batch_data.unsqueeze(1).cuda(non_blocking=True)
    batch_labels=batch_labels.long().cuda(non_blocking=True)
    with torch.no_grad():
-    pred_labels=model(batch_data)
+    pred_labels,_=model(batch_data)
     loss=criterion(pred_labels,batch_labels)
    labels_indices=torch.argmax(pred_labels,dim=1)
    true_labels=true_labels+list(batch_labels.flatten().cpu().numpy())
