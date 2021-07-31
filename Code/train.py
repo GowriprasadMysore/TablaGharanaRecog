@@ -10,7 +10,7 @@ import argparse
 import time
 import sys
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from model_em import CNNLSTM
+from model import CNNLSTM
 
 def parseArgs(argv):
   parser = argparse.ArgumentParser(description='Trainer')
