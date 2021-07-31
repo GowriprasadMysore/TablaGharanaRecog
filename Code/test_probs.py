@@ -45,7 +45,7 @@ def find_accuracy(loader,model,criterion):
    batch_labels=batch_labels.long().cuda(non_blocking=True)
    with torch.no_grad():
     print(batch_data.shape)
-    pred_labels=model(batch_data)
+    pred_labels,_=model(batch_data)
     loss=criterion(pred_labels,batch_labels)
    for preds in torch.exp(pred_labels).cpu().numpy():
     pred_prob.append(preds)
