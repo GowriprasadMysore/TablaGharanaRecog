@@ -10,7 +10,7 @@ import argparse
 import time
 import sys
 from torch.optim.lr_scheduler import ReduceLROnPlateau
-from model import CNNLSTM
+from model_em import CNNLSTM
 
 def parseArgs(argv):
   parser = argparse.ArgumentParser(description='Trainer')
@@ -40,7 +40,7 @@ def train_step(train_loader,model,optimizer,criterion):
    batch_data,batch_labels=data
    batch_data=batch_data.unsqueeze(1).cuda(non_blocking=True)
    batch_labels=batch_labels.long().cuda(non_blocking=True)
-   pred_labels=model(batch_data)
+   pred_labels,_=model(batch_data)
    #print(pred_labels)
    optimizer.zero_grad()
    loss=criterion(pred_labels,batch_labels)
@@ -59,7 +59,7 @@ def validation(dev_loader,model,optimizer,criterion):
    batch_data=batch_data.unsqueeze(1).cuda(non_blocking=True)
    batch_labels=batch_labels.long().cuda(non_blocking=True)
    with torch.no_grad():
-    pred_labels=model(batch_data)
+    pred_labels,_=model(batch_data)
     loss=criterion(pred_labels,batch_labels)
    dev_loss=dev_loss+loss.item()
   return dev_loss*1.0/len(dev_loader)
