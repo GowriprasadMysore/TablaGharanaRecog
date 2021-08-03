@@ -11,3 +11,11 @@ Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGSOF TABL
 5. test_prob.py : performs inference on development and test data and print the confusion matrix and report for only test data and store the "true predicted probabilities"
 
 6. segment_test_h5.py : Split the 10 sec raw samples to 5sec and 3 sec raw samples 
+
+
+
+
+# Dataset
+Dataset information will be shared on request. The authours do no have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source adn the times stamps are given.
+
+To get the information about the dataset, contact at ee19d702@smail.iitm.ac.in
