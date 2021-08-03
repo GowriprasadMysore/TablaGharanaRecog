@@ -18,4 +18,4 @@ Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGSOF TABL
 # Dataset
 Dataset information will be shared on request. The authours do no have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source adn the times stamps are given.
 
-To get the information about the dataset, contact at ee19d702@smail.iitm.ac.in
+To get the information about the dataset, contact ee19d702@smail.iitm.ac.in
