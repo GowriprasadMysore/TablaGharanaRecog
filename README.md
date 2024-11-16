@@ -25,4 +25,4 @@ R Gowriprasad, V Venkatesh, Hema A Murthy, R Aravind, K S R Murty, "Tabla Gharan
 R Gowriprasad, R Aravind and Hema A Murthy, “Structural Segmentation and Labeling of Tabla Solo Performances,” Journal of New Music Research, 2023. https://doi.org/10.1080/09298215.2023.2265912
 
 
-To get the information about the dataset, contact ee19d702@smail.iitm.ac.in
+To get the information about the dataset, contact gowriprasadmysore@gmail.com/ee19d702@smail.iitm.ac.in
