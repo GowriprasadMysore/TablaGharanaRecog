@@ -18,4 +18,11 @@ Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGSOF TABL
 # Dataset
 Dataset information will be shared on request. The authours do no have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source adn the times stamps are given.
 
+# Reference 
+Please cite the following paper when this code is used for research
+R Gowriprasad, V Venkatesh, Hema A Murthy, R Aravind, K S R Murty, "Tabla Gharana Recognition from Audio Recordings of Tabla Solo Performances," Proc. International Society for Music Information Retrieval Conference ISMIR 2021, Nov. 2021. DOI: 10.5281/zenodo.5624630
+
+R Gowriprasad, R Aravind and Hema A Murthy, “Structural Segmentation and Labeling of Tabla Solo Performances,” Journal of New Music Research, 2023. https://doi.org/10.1080/09298215.2023.2265912
+
+
 To get the information about the dataset, contact ee19d702@smail.iitm.ac.in
