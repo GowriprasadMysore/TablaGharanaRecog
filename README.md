@@ -1,5 +1,5 @@
 # TablaGharanaRecog
-Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGSOF TABLA SOLO PERFORMANCES"
+Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGS OF TABLA SOLO PERFORMANCES", ISMIR 2021
 
 1. Data Preparation 
 2. 1.data_segment_and_store_with_label.py : Take the Data directories and search for the wavefile. After that segment the wavfile for specified duration. At the end it will store in the h5 format file.
