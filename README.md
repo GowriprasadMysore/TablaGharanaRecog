@@ -14,7 +14,7 @@ Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGS OF TAB
 
 
 # Dataset
-Dataset information will be shared on request. The authors do not have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source and the time stamps are given. The dataset details can be accessed from [Gharana Recognition Dataset]([https://example.com](https://sites.google.com/view/gowriprasad-phd-thesis-iitm/datasets/gharana-dataset))
+Dataset information will be shared on request. The authors do not have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source and the time stamps are given. The dataset details can be accessed from [Gharana Recognition Dataset]([[https://sites.google.com/view/gowriprasad-phd-thesis-iitm/datasets/gharana-dataset)]
 
 
 # Reference 
