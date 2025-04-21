@@ -13,10 +13,9 @@ Implementation of "TABLA GHARHANA RECOGNITION FROM AUDIO MUSIC RECORDINGS OF TAB
 6. segment_test_h5.py : Split the 10 sec raw samples to 5sec and 3 sec raw samples 
 
 
-
-
 # Dataset
-Dataset information will be shared on request. The authours do no have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source adn the times stamps are given.
+Dataset information will be shared on request. The authors do not have the right to share a few of the audio recordings as they are from online sources. The details related to the link of the audio source and the time stamps are given. The dataset details can be accessed from [Gharana Recognition Dataset]([https://example.com](https://sites.google.com/view/gowriprasad-phd-thesis-iitm/datasets/gharana-dataset))
+
 
 # Reference 
 Please cite the following paper when this code is used for research
